@@ -17,4 +17,8 @@ window.addEventListener('DOMContentLoaded', (e) => {
         }
     });
 
+    welcomeButton.addEventListener('click', (e) => {
+        welcome.style.display = 'none';
+    });
+
 });
