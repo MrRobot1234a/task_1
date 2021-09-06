@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;700&display=swap');
+
+* {
+    font-family: 'Urbanist', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0,0,0);
+}
+
+.login {
+    background-color: #fff;
+    border-radius: 15px;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    padding: 40px 0 0 0;
+}
+
+.login_title {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+    color: rgb(234, 109, 31);
+}
+
+.login_name input {
+    margin-top: 25px;
+    width: 60%;
+    height: 40px;
+    text-align: center;
+    font-size: 28px;
+    outline: none;
+    background-color: rgba(0, 0, 0, .1);
+    border: none;
+    border-radius: 20px;
+}
+
+.login_surname input {
+    margin-top: 15px;
+    width: 60%;
+    height: 40px;
+    text-align: center;
+    font-size: 28px;
+    outline: none;
+    background-color: rgba(0, 0, 0, .1);
+    border: none;
+    border-radius: 20px;
+}
+
+.login_button {
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(234, 109, 31);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.welcome {
+    display: none;
+    width: 80%;
+    background-color: #fff;
+    /* height: 600px; */
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 0 15px 10px 15px;
+}
+
+.welcome_title {
+    padding-top: 20px;
+    font-size: 30px;
+    color: rgb(234, 109, 31);
+    text-align: center;
+    font-weight: 600;
+}
+
+.welcome_button {
+    display: block;
+    border: none;
+    outline: none;
+    margin: 0 auto;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color: rgb(234, 109, 31);
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
